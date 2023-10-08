@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.bodyy{
+
+    background: url(house.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#h{
+    text-align: center;
+    color: blue;
+}
+
+#form{
+    background: linear-gradient(blue, aqua);
+    /* animation: gradientAnimation  infinite 5s ease; */
+}
+/* @keyframes gradientAnimation {
+    0% {
+        background: linear-gradient(blue, white);
+    }
+    50%{
+        background: linear-gradient(rgba(0, 0, 255, 0.449), rgba(255, 255, 255, 0.54));
+
+    }
+    100% {
+        background: linear-gradient(white, blue);
+    }
+} */
+
+#pad{
+    padding: 10px;
+}
+
+#vick{
+    /* width: 80%; */
+    /* padding: 30px; */
+}
+
+#main{
+    margin-left: 20px;
+}
+
+#love{
+    background: linear-gradient(blue, rgb(0, 221, 255));
+    animation: gradientAnimatio  infinite 2s ease;
+
+}
+@keyframes gradientAnimatio {
+    0% {
+        background: linear-gradient(blue, rgb(0, 221, 255));
+    }
+    /* 50%{
+        background: linear-gradient(rgba(0, 0, 255, 0.449), rgba(255, 255, 255, 0.54));
+
+    } */
+    100% {
+        background: linear-gradient(rgb(0, 140, 255),rgba(255, 255, 255, 1));
+
+    }
+}
+
+::placeholder {
+    color: blue; /* Change this to your desired color */
+}
